@@ -1,0 +1,120 @@
+.video-card{
+    height: 100%;
+    width: 35%;
+    margin: auto;
+    border: 1px solid white;
+    scroll-snap-align: start;   
+    position: relative;
+}
+
+
+.video-cards-video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    z-index: 1;
+}
+
+.video-card-username{
+    position: absolute;
+    color: white;
+    font-weight: 800;
+    bottom: 5rem;
+    left: 20px;
+    z-index: 2;
+}
+
+.video-card-music{
+    display: flex;
+    position: absolute;
+    bottom: 3rem;
+    color: white;
+    font-weight: 300;
+    left: 15px;
+    z-index: 2;
+   
+}
+
+.video-card-comment{
+    color: white;
+    position: absolute;
+    bottom: 12rem;
+    right: 20px;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.video-card-like{
+    position: absolute;
+    right: 20px;
+    bottom: 9rem;
+    color: white;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.song{
+    width: 15vw;
+    z-index: 2;
+}
+
+.music-icon{
+    z-index: 2;
+}
+
+
+.video-card-comment-box{
+    height: 12rem;
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    z-index: 2;
+}
+
+.post-user-comment{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    margin: 7px;
+}
+
+.cmnt{
+margin-left: 10px;
+
+}
+.post-user-comment img{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%
+}
+.post-user-comment p{
+    font-size: 0.7rem;
+}
+
+.post-user-comment h5{
+    font-size: 1.1rem;
+}
+
+.comment-form{
+    height: 20%;
+    display: flex
+}
+
+.comment-form input{
+    height: 100%;
+    width: 85%;
+}
+
+
+.comment-form button{
+    height: 100%;
+    width: 15%;
+    border: none;
+}
+
+
+.video-card-comment-box{
+    overflow: scroll;
+}
